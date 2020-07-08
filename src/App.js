@@ -1,12 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import Dashboard from "./Dashboard/Dashboard";
+import Layout from "./Layout";
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
+
 import './App.css';
 
 function App() {
   return (
     <div >
-      <Dashboard/>
+      <Router>
+        <Layout/>
+      </Router>
       
     </div>
   );
