@@ -4,7 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import Box from '@material-ui/core/Box';
 
-import Dashboard2 from "./Pages/Dashboard";
 import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
@@ -100,6 +99,8 @@ const useStyles = makeStyles((theme) => ({
   container: {
     paddingTop: theme.spacing(4),
     paddingBottom: theme.spacing(4),
+    minHeight: '100vh',
+
   },
   paper: {
     padding: theme.spacing(2),

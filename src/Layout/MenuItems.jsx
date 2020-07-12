@@ -5,14 +5,10 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import { makeStyles } from '@material-ui/core/styles';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import PeopleIcon from '@material-ui/icons/People';
 import BarChartIcon from '@material-ui/icons/BarChart';
-import LayersIcon from '@material-ui/icons/Layers';
-import AssignmentIcon from '@material-ui/icons/Assignment';
+import CalendarTodayIcon from '@material-ui/icons/CalendarToday';import AssignmentIcon from '@material-ui/icons/Assignment';
 import {
-  BrowserRouter as Router,
-
   NavLink
 } from "react-router-dom";
 
@@ -34,14 +30,14 @@ export const PrimaryMenuList = [
   {
     Name: "Schedule",
     goto: "/Schedule",
-    icon: <PeopleIcon/>,
+    icon: <CalendarTodayIcon/>,
     strict: true
 
   },
   {
     Name: "Reports",
     goto: "/Reports",
-    icon: <LayersIcon/>,
+    icon: <BarChartIcon/>,
     strict: true
 
   },
